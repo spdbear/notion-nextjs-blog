@@ -31,14 +31,14 @@ const SpanText = ({ text, id }) => {
 
 export const Text = ({ text, id }) => {
   return (
-    <p className="mb-4 text-gray-700">
+    <p className="mb-4 text-gray-700 leading-loose">
       <SpanText text={text} id={id} />
     </p>
   )
 }
 export const ListItem = ({ text, id }) => {
   return (
-    <li className="text-gray-700">
+    <li className="text-gray-700 leading-loose">
       <SpanText text={text} id={id} />
     </li>
   )
@@ -48,19 +48,19 @@ export const Heading = ({ text, level }) => {
   switch (level) {
     case 'heading_1':
       return (
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight my-2 text-black">
+        <h1 className="font-bold text-3xl md:text-5xl tracking-tight my-2 mt-8 text-black">
           {text[0].text.content}
         </h1>
       )
     case 'heading_2':
       return (
-        <h2 className="font-bold text-2xl md:text-3xl tracking-tight my-2 text-black">
+        <h2 className="font-bold text-2xl md:text-3xl tracking-tight my-2 mt-8 text-black">
           {text[0].text.content}
         </h2>
       )
     case 'heading_3':
       return (
-        <h3 className="font-bold text-lg md:text-xl tracking-tight my-2 text-black">
+        <h3 className="font-bold text-lg md:text-xl tracking-tight my-2 mt-8 text-black">
           {text[0].text.content}
         </h3>
       )
