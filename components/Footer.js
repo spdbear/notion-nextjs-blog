@@ -23,10 +23,10 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://twitter.com/luciovilla">Contact</ExternalLink>
+          <ExternalLink href="https://twitter.com/spdbear">Contact</ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://github.com/luciovilla/notion-nextjs-blog">Source Code</ExternalLink>
+          <ExternalLink href="https://github.com/spdbear/notion-nextjs-blog">Source Code</ExternalLink>
         </div>
       </div>
     </footer>
