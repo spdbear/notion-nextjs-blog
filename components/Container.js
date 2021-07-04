@@ -7,8 +7,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props
   const router = useRouter()
   const meta = {
-    title: 'A Next.js, Notion, Tailwind CSS starter blog template',
-    description: `An open-source starter blog template that is statically generated with Next.js, content powered by Notion and styled with Tailwind CSS.`,
+    title: 'spdbear Notion Blog.',
+    description: `Notionでブログのテスト`,
     type: 'website',
     image: '/site.png',
     ...customMeta,
